@@ -4828,7 +4828,7 @@ var $ =__webpack_require__(35);
 var open = __webpack_require__(36);
 var  playVideo =__webpack_require__(37);
 var io =__webpack_require__(38);
-var socket =io("http://localhost:3000");
+var socket =io("https://stream0107.herokuapp.com");
 var config = {host:"stream3006.herokuapp.com",port:443,secure:true};
 function getPeer() {
     var id=uid(10);

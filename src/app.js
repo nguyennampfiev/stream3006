@@ -4,7 +4,7 @@ var $ =require("jquery");
 var open = require("./getStream");
 var  playVideo =require("./playVideo");
 var io =require("socket.io-client");
-var socket =io("http://localhost:3000");
+var socket =io("https://stream0107.herokuapp.com");
 var config = {host:"stream3006.herokuapp.com",port:443,secure:true};
 function getPeer() {
     var id=uid(10);

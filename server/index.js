@@ -1,4 +1,4 @@
-var io =  require("socket.io")(3000,function () {
+var io =  require("socket.io")(process.env.PORT||3000,function () {
     console.log("Start server");
 });
 var arrPeerID =[];
